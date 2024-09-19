@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Übung</title>
+</head>
+<body>
+    <form action="./form-excercise.html" method="post">
+        <label for="headline">Headline</label><br>
+        <input type="text" id="headline" name="formHeadline" required><br>
+        <label for="summary">Summary</label><br>
+        <textarea id="summary" name="formSummary"></textarea><br>
+        <label for="completetext">Complete Text</label><br>
+        <textarea id="completetext" name="formCompletetext" required></textarea><br>
+        <label for="picupload">Image Upload</label><br>
+        <input id="picupload" name="formPicupload" type="file"><br>
+        <label for="category">Category</label><br>
+        <select id="category" name="formCategory" required>
+            <option value="" disabled selected>Choose a category</option>
+            <option value="wellness">Wellness</option>
+            <option value="sport">Sport</option>
+            <option value="culture">Culture</option>
+        </select><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
