@@ -1,0 +1,41 @@
+/*
+h1 {
+    color: blue;
+    font-size: 56px;
+}
+label + input{
+    font-family: serif;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.big-label{
+    color:blue;
+    font-size: 4rem;
+}
+.email{
+    color:brown;
+}
+.small-label{
+    color:red;
+    font-size: 1rem;
+}
+.big-label.email{
+    color: grey;
+}
+
+#bio{
+ font: optional;
+}
+div p {
+    color:green;
+}
+div > p{
+    color:magenta;
+}
+*/
+label + input, label + select{
+    font-family: serif;
+    border: 2px solid red;
+    border-radius: 5px;
+}
