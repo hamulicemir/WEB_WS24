@@ -1,0 +1,92 @@
+.heading1 {
+    font-size: 2rem;
+    text-align: center;
+    background-color: #ddc3a5;
+    border-radius: 5px;
+}
+.form{
+    border: 2px solid black;
+    padding: 2%;
+    border-radius: 5px;
+    margin: 5%;
+    text-align: center;
+    background-color: #ddc3a5;
+    max-width: 80%; 
+    margin: 0 auto;
+}
+#login-body{
+    background-color: #fff1e1;
+}
+#login-divider{
+    border-color: black;
+}
+.inputs{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+.username-input{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-bottom: 0.5rem;
+    background-color: #fff1e1;
+    max-width: 50%; 
+    margin: 0 auto;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+.password-input{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-bottom: 0.5rem;
+    background-color: #fff1e1;
+    max-width: 50%; 
+    margin: 0 auto;
+    padding: 1rem;    
+}
+.username-input input{
+    width: 70%; 
+    padding: 0.2rem; 
+    margin-top: 0.5rem; 
+    border: 2px solid #fff1e1; 
+    border-radius: 5px; 
+    font-size: 1rem; 
+    background-color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+.password-input input{
+    width: 70%; 
+    padding: 0.2rem; 
+    margin-top: 0.5rem; 
+    border: 2px solid #fff1e1; 
+    border-radius: 5px; 
+    font-size: 1rem; 
+    background-color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.login-button {
+    margin-top: 0.5rem;
+    padding: 0.7rem 2rem;
+    font-size: 1rem; 
+    background-color: #fff1e1; 
+    color: black; 
+    border: 1px solid black ; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.login-button:hover {
+    background-color: #fff1e1; 
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.login-button:active {
+    background-color: #fff1e1;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}

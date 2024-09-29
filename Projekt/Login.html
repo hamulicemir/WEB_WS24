@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./stylesheet.css" rel="stylesheet"/> 
     <title>User-Login</title>
 </head>
-<body>
-    <h1>Login</h1>
-    <form action="./Login.html" method="post">
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="formUsername" placeholder="Benutzername" required><br>
-
-        <label for="passwort">Passwort:</label><br>
-        <input id="passwort" type="password" name="formPasswort" required minlength="8" autocomplete="off" placeholder="Passwort" required/>        
-        <br><br>
-        <input type="submit" value="Anmelden"/>
-    </form>
+<body id="login-body">
+    <div class="form">
+        <h1 class="heading1">Login</h1>
+        <hr id="login-divider">
+        <form action="./Login.html" method="post">
+            <div class="inputs">
+                <div class="username-input">
+                    <label for="username">Username</label><br>
+                    <input type="text" id="username" name="formUsername" placeholder="Benutzername" required><br>
+                </div>
+                <div class="password-input">
+                    <label for="passwort">Passwort</label><br>
+                    <input id="passwort" type="password" name="formPasswort" required minlength="8" autocomplete="off" placeholder="Passwort" required/>        
+                </div>
+                <input class="login-button"type="submit" value="Anmelden"/>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
