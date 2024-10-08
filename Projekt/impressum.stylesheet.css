@@ -57,7 +57,35 @@ p strong {
     font-weight: bold;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    p {
+        font-size: 1.05em;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 2.1em;
+    }
+
+    p {
+        font-size: 1.02em;
+    }
+}
+
+@media (max-width: 480px) {
     body {
         padding: 15px;
     }
@@ -69,8 +97,5 @@ p strong {
     p {
         font-size: 1em;
     }
-
-    img {
-        width: 100%;
-    }
 }
+

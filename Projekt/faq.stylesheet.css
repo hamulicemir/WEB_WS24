@@ -30,14 +30,44 @@ summary:hover {
 p {
     margin: 10px 0;
 }
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
     h1 {
-        font-size: 24px;
+        font-size: 2.5rem;
     }
+
+    summary {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
     summary {
         font-size: 16px;
     }
+
     p {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    summary {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 13px;
     }
 }

@@ -88,10 +88,35 @@ input[type="submit"]:hover {
     transition: 0.3s;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
     .registration-box {
-        width: 100%;
+        width: 80%;
+        padding: 30px;
+    }
+
+    .registration-box h2 {
+        font-size: 22px;
+    }
+
+    .left, .right {
         padding: 15px;
+    }
+
+    input, select {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .registration-box {
+        flex-direction: column;
+        width: 90%;
+        padding: 20px;
+    }
+
+    .left {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     }
 
     .registration-box h2 {
@@ -101,5 +126,26 @@ input[type="submit"]:hover {
     input, select {
         font-size: 14px;
         padding: 8px;
-    }}
+    }
+}
+
+@media (max-width: 480px) {
+    .registration-box {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .registration-box h2 {
+        font-size: 18px;
+    }
+
+    input, select {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    input[type="submit"] {
+        font-size: 16px;
+    }
+}
     
