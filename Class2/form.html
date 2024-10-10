@@ -1,55 +1,79 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulare</title>
     <!--Link to CSS stylesheet - cleanest way-->
-    <link href="./style.css" rel="stylesheet"/> 
+    <link href="./style.css" rel="stylesheet" />
     <!--Internes Stylesheet, schnelle alternative-->
-    <style> 
-            /*
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <style>
+        /*
         label{ 
             color: blue;
         }
             */
-        a:visited{
-            color:blueviolet;
+        a:visited {
+            color: blueviolet;
         }
-        label:hover{
+
+        label:hover {
             background-color: lightcyan;
         }
-        
     </style>
 </head>
 
 <body style="background-color: lightgoldenrodyellow;">
-    <form action="./form.html" method="post">
-        <h1>Profil</h1>
-        <label class="big-label" for="username">Username</label>
-        <input name="formUsername" id="username" type="text" placeholder="Username"><br>
-        <label for="email">E-Mail-Adresse</label>
-        <input class="small-label email" name="formEmail" id="email" type="email" placeholder="example@icloud.com" required><br>
-        <label for="location">Location:</label>
-        <select id="location" name="location">
-            <option value="" disabled selected>Wählen Sie einen Ort</option> <!--Wenn Wien nicht vorausgewählt sein soll-->
-            <option value="wien">Wien</option>
-            <option value="nichtWien">NichtWien</option>
-        </select><br>
-        <label class="big-label" for="bio">Bio:</label>
-        <textarea id="bio" name="text"></textarea><br>
-        <div>
-            <label>
-                <p>Dieser Paragraph ist grün</p>
-            </label>
-            <div>
-                <p>Dieser Paragraph ist magenta.</p>
+    <div class="container container-x1">
+        <div class="row">
+            <div class="col-12 col-1g-3">
+                Hello
             </div>
-            <div>
-                <p>Dieser Paragraph ist zum Test</p>
+            <div class="col-12 col-1g-3">
+                Hi there
+            </div>
+            <div class="co1-12 Ico1-1g-3">
+                Some more
             </div>
         </div>
-        <input type="submit"><br>
-    </form>
+        <div class="row">
+            <form action="./form.html" method="post">
+                <h1>Profil</h1>
+                <label class="big-label" for="username">Username</label>
+                <input name="formUsername" id="username" type="text" placeholder="Username"><br>
+
+                <label for="email">E-Mail-Adresse</label>
+                <input class="small-label email" name="formEmail" id="email" type="email"
+                    placeholder="example@icloud.com" required><br>
+                <label for="location">Location:</label>
+                <select id="location" name="location">
+                    <option value="" disabled selected>Wählen Sie einen Ort</option>
+                    <!--Wenn Wien nicht vorausgewählt sein soll-->
+                    <option value="wien">Wien</option>
+                    <option value="nichtWien">NichtWien</option>
+                </select><br>
+                <label class="big-label" for="bio">Bio:</label>
+                <textarea id="bio" name="text"></textarea><br>
+                <div>
+                    <label>
+                        <p>Dieser Paragraph ist grün</p>Ï
+                    </label>
+                    <div>
+                        <p>Dieser Paragraph ist magenta.</p>
+                    </div>
+                    <div>
+                        <p>Dieser Paragraph ist zum Test</p>
+                    </div>
+                </div>
+                <input type="submit"><br>
+            </form>
+        </div>
 </body>
+
 </html>
